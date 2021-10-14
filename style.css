@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Oregano&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fondamento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crushed&display=swap');
+
+
+html, body {
+	font-family: 'Marcellus SC', serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	width: 100%;
+	background-color: #81d1ff;
+}
+
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 80%;
+	width: 95%;
+	border-radius: 10px;
+	background-color: #b4e3ffc4;
+}
+
+.line {
+    height: 6px;
+    background-color: #9e9e9e;
+    width: 60px;
+    margin: 8px auto;
+    border-radius: 5px;
+    margin: 50px;
+}
+
+#user_name {
+	font-family: 'Oregano', cursive;
+	width: 70%;
+	font-size: 20px;
+}
+
+h6 {
+	font-size: 15px;
+}

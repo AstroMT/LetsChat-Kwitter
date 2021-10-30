@@ -2,7 +2,7 @@
 <html>
 
 <head>
-	<title>Join a Kwitter Room | LetsChat</title>
+	<title>Join a Room | LetsChat</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
@@ -16,9 +16,10 @@
 </head>
 
 <body>
-	<div class="crushed container">
+	<div class="special container">
 		<center>
 			<button id="logout" class="glyphicon glyphicon-log-out btn btn-danger" onclick="log_out()">Logout</button>
+			<br>
 			<br>
 			<h1 class="header">
 				Kwitter
@@ -26,7 +27,9 @@
 					<img src="m2.png" height="75">
 				</sup>
 			</h1>
-			<h3 class="color_white"></h3>
+			<br>
+			<h3 id="welcome"></h3>
+			<br><br>
 			<div class="form-group input_div_room_page">
 				<label>#Add Room:</label>
 				<input type="text" class="form-control" id="room_name" placeholder="Enter your room name...">
